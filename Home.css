@@ -1,0 +1,252 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body 
+{
+	
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+	height:100vh;
+	width:99vw;
+}
+
+html 
+{
+  scroll-behavior: smooth;
+}
+
+p 
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    color: #999;
+}
+
+h
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 200%;
+	font-weight: 200;
+    color: #B22222;
+}
+
+h_Bold
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 200%;
+    font-weight: 500;
+    line-height: 1vw;
+    color: #B22222;
+}
+
+h_Bold_a
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.0em;
+    font-weight: 80;
+    line-height: 1.0em;
+    color: #B22222;
+}
+
+#section1.Main_page
+{
+	height: 100%;
+	width:100%;
+	background-image: url("page2image.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	
+}
+
+#section2.Main_page
+{
+	height: 100%;
+	width:100%;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+#section3.Main_page
+{
+	height: 100%;
+	width:100%;
+	background-color: white;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:100%,100%;
+	
+}
+
+
+
+
+.ContentInfo
+{
+	height:80vh;
+	width: 25vw;
+	background-color: white;
+	margin-left:3vw;
+	text-align:center;
+	margin-top:10vh;	
+	box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	word-wrap: break-word;
+
+}
+
+.Name
+{
+	padding-top:20%;
+	padding-bottom: 80px;
+}
+
+button.btn.btn-primary.page1
+{
+	margin-top: 20px;
+    border-bottom-height: 1px;
+	border-radius:50rem;
+	border-color: gray;
+	background-color:#B22222;
+	margin-bottom: 20px
+}
+
+
+
+.fa 
+{
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  height:40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background: gray;
+  color: white;
+}
+
+.fa:hover 
+{
+    opacity: 0.7;
+
+}
+
+
+
+.container.Main_page
+{
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+.icon-bar 
+{
+	z-index:5;
+	position: fixed;
+	top: 50%;
+	left:95%;
+	float:right;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+}
+
+.icon-bar a 
+{
+
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+
+.About
+{
+	padding:100px;
+	width:99vw;
+	height:30vh;
+	background-color: white;
+	text-align:center;
+}
+
+.About_image
+{
+	width:99vw;
+	height:80vh;
+	background-image:url("background_prof.jpg");
+	background-position:center;
+}
+
+
+.first_box
+{
+	margin-top:100px;
+	height:300px;
+	width:400px;
+	margin-left: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+.image
+{
+	background-image:url("apple.jpg");
+	background-position:center;
+	width:100%;
+	height:80%;
+}
+
+.text_container
+{
+	border-bottom-style:solid;
+	border-bottom-color: #B22222;
+	width:100%;
+	height:20%;
+	text-align:center;
+	padding:10px;
+}
+.text_box
+{
+	margin-top:100px;
+	height:300px;
+	width:400px;
+	text-align:center;
+	float:right;
+	padding:20px;
+}
+.other_box
+{
+	height:300px;
+	width:400px;
+	margin:10px;
+	float: right;
+    margin-right: 0px;
+	margin-left: 0px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+.other_box_a
+{
+	height:300px;
+	width:400px;
+	margin:10px;
+	border-style: solid;
+    margin-right: 0px;
+	margin-left: 0px;
+}
+
+.first_box:hover , .text_box:hover, .other_box:hover
+{
+	border-color:#B22222;
+}
+.col-md-6.new
+{
+	float:right;
+}
