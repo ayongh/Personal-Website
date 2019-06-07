@@ -1,6 +1,13 @@
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+   
+@media only screen and (max-height: 830px) {
+ #aboutme, #education, #skills, #experience
+	{
+		height:auto;
+	}
+}
 @media only screen and (max-width: 1450px) {
 	.eGMGzG
 	{
